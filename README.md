@@ -11,13 +11,11 @@ MkKernel is your go-to tool for extracting critical information from boot and re
     Extract the ramdisk filesystem: Unpack the entire ramdisk, regardless of its compression type (.gz, .lz4, etc.), into a directory for easy inspection.
     View detailed boot.img info: Print out all the important information about your boot image, including kernel size, ramdisk size, and much more!
 
-Usage
+# Usage
 
-Using MkKernel is super simple:
+$ Using MkKernel is super simple:
 
-bash
-
-sudo ./mkkernel <boot.img> or <recovery.img>
+$ sudo ./mkkernel <boot.img> or <recovery.img>
 
 Just provide the path to your boot or recovery image, and MkKernel will handle the rest!
 Coming Soon in Version 2!
